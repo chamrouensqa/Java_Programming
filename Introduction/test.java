@@ -57,5 +57,13 @@ public class test{
         String fullname = (firstName+lastName);
         System.out.println("This is my full name "+fullname);
         System.out.println(firstName+lastName);
+        System.out.println("-----------------Declarative multiple Variable---------------------");
+        int x=10,y=20,z=30;
+        System.out.println(x+y+z);
+        int x,y,z;
+        x = 30;
+        y = 30;
+        z = 30;
+        System.out.println(x+y+z);
     }
 }
