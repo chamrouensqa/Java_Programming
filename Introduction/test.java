@@ -11,5 +11,12 @@ public class test{
         System.out.println("Here above is the single comment");
         System.out.println("--------------------------------------");
         System.out.println("Using a comment after code");//This the commenter after code
+        System.out.println("-----------------Multiple Line Comments---------------------");
+        /* I just want to test my muliple line of code here
+           Don't worry about this line of code,
+           It wont affect the performance.
+         */
+        System.out.println("Mulple line of code is working fine");
+
     }
 }
