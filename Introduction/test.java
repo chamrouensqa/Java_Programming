@@ -17,6 +17,37 @@ public class test{
            It wont affect the performance.
          */
         System.out.println("Mulple line of code is working fine");
-
+        System.out.println("-----------------Variable---------------------");
+        int myInt = -10;
+        System.out.println(myInt);
+        myInt = 20;
+        System.out.println(myInt);
+        String myText = "Starting in programming";
+        System.out.println(myText);
+        myText = "Cambodia";
+        System.out.println(myText);
+        float myFloat = 500.9f;
+        System.out.println(myFloat);
+        float newFloat = myFloat = 10000.9f;
+        System.out.println(newFloat);
+        System.out.println(myFloat);
+        double myDec = 99999.9999;
+        System.out.println(myDec);
+        char oneChar = 'c';
+        char twoChar = '@';
+        char threeChar = '4';
+        int asciiValue1 = (int) oneChar;
+        int asciiValue2 = (int) twoChar;
+        int asciiValue3 = (int) threeChar;
+        System.out.println(asciiValue1);
+        System.out.println(asciiValue2);
+        System.out.println(asciiValue3);
+        System.out.println(asciiValue1+asciiValue2+asciiValue3);
+        boolean isCheckTrue = true;
+        boolean isCheckFalse = false;
+        System.out.println(isCheckTrue);
+        System.out.println(isCheckFalse);
+        final boolean isAlwaysTrue = true;
+        System.out.println(isAlwaysTrue);
     }
 }
