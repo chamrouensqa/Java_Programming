@@ -49,5 +49,13 @@ public class test{
         System.out.println(isCheckFalse);
         final boolean isAlwaysTrue = true;
         System.out.println(isAlwaysTrue);
+        System.out.println("-----------------Print Variable---------------------");
+        String myName = "Chamrouen Sann";
+        System.out.println("Hello my name is "+myName);
+        String firstName = "Chamrouen ";
+        String lastName = "Sann";
+        String fullname = (firstName+lastName);
+        System.out.println("This is my full name "+fullname);
+        System.out.println(firstName+lastName);
     }
 }
