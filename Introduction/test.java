@@ -90,5 +90,14 @@ public class test{
         System.out.println("This Boolean are having two type "+trueBoolean+" to "+falseBoolean);
         char charType = 'a';
         System.out.println("This character is strong a single value "+charType);
+        System.out.println("-----------------Java Type Casting---------------------");
+        int wideningCasting = 10;
+        System.out.println("The original value " + wideningCasting);
+        double convertWideningCasting = wideningCasting;
+        System.out.println("The convert value " + convertWideningCasting);
+        double narrowCasting = 9.9d;
+        int convertNarrowCasting = (int) narrowCasting;
+        System.out.println("The original value is " + narrowCasting);
+        System.out.println("The convert value is " + convertNarrowCasting);
     }
 }
