@@ -99,5 +99,16 @@ public class test{
         int convertNarrowCasting = (int) narrowCasting;
         System.out.println("The original value is " + narrowCasting);
         System.out.println("The convert value is " + convertNarrowCasting);
+        System.out.println("-----------------Java Operators---------------------");
+        int operatorx=103, operatorY=4;
+        int operatorAnswer = operatorx + operatorY;
+        System.out.println(operatorAnswer);
+        System.out.println(operatorAnswer+100);
+        System.out.println(100-operatorx-operatorY);
+        System.out.println(operatorx*operatorY);
+        System.out.println(100/operatorx/operatorY);
+        System.out.println(operatorx%operatorY);
+        System.out.println(++operatorx);
+        System.out.println(--operatorY);
     }
 }
