@@ -136,5 +136,30 @@ public class test{
         int bitwiseOpCompliment = 200;
         bitwiseOpCompliment = ~bitwiseOpCompliment;
         System.out.println(bitwiseOpCompliment);
+        System.out.println("-----------------Java Comparison Operators---------------------");
+        int e1 = 10, e2 = 10;
+        if (e1==e2){
+            System.out.println("The equal comparison operators is correct");
+        }
+        float e3 = 20.2f, e4 = 40.2f;
+        if (e3!=e4){
+            System.out.println("The not equal comparison operator is correct");
+        }
+        float e5 = 20.2f, e6 = 40.2f;
+        if (e6>e5){
+            System.out.println("The greater than comparison operator is correct");
+        }
+        float e7 = 20.2f, e8 = 40.2f;
+        if (e7<e8){
+            System.out.println("The less than comparison operator is correct");
+        }
+        float e9 = 10, e10 = 10;
+        if (e9>=e10){
+            System.out.println("The greater than or equal comparison operator is correct");
+        }
+        float e11 = 10, e12 = 10;
+        if (e11<=e12){
+            System.out.println("The less than or equal comparison is correct");
+        }
     }
 }
