@@ -110,5 +110,31 @@ public class test{
         System.out.println(operatorx%operatorY);
         System.out.println(++operatorx);
         System.out.println(--operatorY);
+        System.out.println("-----------------Java Assingment Operator---------------------");
+        int assignmentX = 10;
+        System.out.println("This is assignment operator "+assignmentX);
+        assignmentX += 90;
+        System.out.println("This is the assignment operator assingning shortcut addition "+assignmentX);
+        assignmentX -= 3;
+        System.out.println("This is the assignment operator assingning shortcut subtraction "+assignmentX);
+        assignmentX *= 3;
+        System.out.println(assignmentX);
+        assignmentX /= 3;
+        System.out.println(assignmentX);
+        assignmentX %= 2;
+        System.out.println(assignmentX);
+        //Bitwise operator
+        int bitwiseOpAnd = 100;
+        bitwiseOpAnd &= 3;
+        System.out.println("Binary AND is = "+bitwiseOpAnd);
+        int bitwiseOpOr = 200;
+        bitwiseOpOr |= 2;
+        System.out.println("Binary Or is = "+bitwiseOpOr);
+        int bitwiseOpXor = 200;
+        bitwiseOpXor ^= 2;
+        System.out.println("Binary Xor is = "+bitwiseOpXor);
+        int bitwiseOpCompliment = 200;
+        bitwiseOpCompliment = ~bitwiseOpCompliment;
+        System.out.println(bitwiseOpCompliment);
     }
 }
