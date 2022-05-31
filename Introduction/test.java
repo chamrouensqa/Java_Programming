@@ -161,5 +161,21 @@ public class test{
         if (e11<=e12){
             System.out.println("The less than or equal comparison is correct");
         }
+        System.out.println("-----------------Java Logical Operators---------------------");
+        //Logical AND
+        int logical1=100, logical2=200;
+        if (logical1==100 && logical2==200){
+            System.out.println("The logical operator AND is working correctly");
+        }
+        //Logical Or
+        int logical3=300, logical4=400;
+        if (logical3==300 || logical4==100){
+            System.out.println("The logical operator Or is working correctly");
+        }
+        //Logical Not
+        int logical5=500, logical6=600;
+        if (!(logical5>1000 && logical6>1000)){
+            System.out.println("The logical operator Not is working correctly");
+        }
     }
 }
