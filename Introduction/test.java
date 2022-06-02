@@ -177,5 +177,19 @@ public class test{
         if (!(logical5>1000 && logical6>1000)){
             System.out.println("The logical operator Not is working correctly");
         }
+        System.out.println("-----------------Java String---------------------");
+        String stringLength="Chamrouensann is worker at NBC IT";
+        System.out.println("The text leght contains is "+stringLength.length());
+        System.out.println("String to lowercase"+stringLength.toLowerCase());
+        System.out.println("String to uppercase"+stringLength.toUpperCase());
+        //Finding index
+        System.out.println("Finding index is "+stringLength.indexOf("is"));
+        System.out.println("-----------------Java Special Character---------------------");
+        String specialTxt1 = "This text contain \"special string\"";
+        String specialTxt2 = "This text contain \'special string\'";
+        String specialTxt3 = "This text contain \\special string\\";
+        System.out.println(specialTxt1);
+        System.out.println(specialTxt2);
+        System.out.println(specialTxt3);
     }
 }
