@@ -204,5 +204,19 @@ public class test{
         System.out.println("Random number "+Math.random());
         int numRandom = (int)(Math.random()*101);
         System.out.println("Random number from 0 to 100 = "+numRandom);
+        System.out.println("-----------------Java Booleans---------------------");
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+        System.out.println("The result of boolean is Java Fun? "+isJavaFun);
+        System.out.println("The result of boolean is Fish Tasty? "+isFishTasty);
+        //Boolean Expression
+        int boolean1=10;
+        int boolean2=20;
+        System.out.println(boolean1<boolean2);
+        System.out.println(boolean1>boolean2);
+        System.out.println(boolean1==10);
+        System.out.println(boolean1==20);
+        System.out.println(10==20);
+        System.out.println(10!=20);
     }
 }
