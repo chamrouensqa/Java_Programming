@@ -191,5 +191,18 @@ public class test{
         System.out.println(specialTxt1);
         System.out.println(specialTxt2);
         System.out.println(specialTxt3);
+        System.out.println("-----------------Java Math---------------------");
+        //Maximum Value
+        System.out.println("Maximum Value "+Math.max(5,10));
+        //Minimum Value
+        System.out.println("Minimum Value "+Math.min(210,2));
+        //Squard Root
+        System.out.println("Square root "+Math.sqrt(64));
+        //Absolute Positive
+        System.out.println("Absolute positive "+Math.abs(-6.7));
+        //Random Number
+        System.out.println("Random number "+Math.random());
+        int numRandom = (int)(Math.random()*101);
+        System.out.println("Random number from 0 to 100 = "+numRandom);
     }
 }
