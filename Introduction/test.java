@@ -218,5 +218,38 @@ public class test{
         System.out.println(boolean1==20);
         System.out.println(10==20);
         System.out.println(10!=20);
+        System.out.println("-----------------If Else Condition---------------------");
+        if (10>2){
+            System.out.println("10 is greater than 2");
+        }
+        int elX1=10;
+        int elX2=20;
+        if (elX1>elX2){
+            System.out.println(elX1+" is greather than "+elX2);
+        }
+        int time=900;
+        if (time<100){
+            System.out.println("The condition is corrected");
+        }
+        else{
+            System.out.println("This condition is incorred");
+        }
+        //Else if statement
+        int timer = 100;
+        if (timer <30)
+        {
+            System.out.println("The timer is less than 30");
+        }
+        else if (timer<20)
+        {
+            System.out.println("The timer is less than 20");
+        }
+        else{
+            System.out.println("The timer is other value");
+        }
+        //Ternary Operator
+        int khmerValue=100;
+        String result = (khmerValue<100)? "Good Day man" : "That is okay accept it";
+        System.out.println(result);
     }
 }
