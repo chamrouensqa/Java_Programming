@@ -288,5 +288,33 @@ public class test{
             default:
                 System.out.println("This is the default value");
         }
+        System.out.println("-----------------Java While Loop---------------------");
+        //While loop
+        int i = 0;
+        while (i<5){
+            System.out.println("This is the while loop value "+i);
+            i++;
+        }
+        //Do while loop
+        int doWhile=5;
+        do{
+            System.out.println("This is good things to go "+doWhile);
+            doWhile++;
+        }
+        while (doWhile<5);
+        //Using continues
+        for (int ios=1;ios<=5;ios++){
+            if (ios == 4) {
+                continue;
+            }
+            else{
+                System.out.println(ios);
+            }
+        }
+        //For each loop
+        String[] cars = {"BMW","PowerRanger","RoRoy"};
+        for (String listCars:cars){
+            System.out.println(listCars);
+        }
     }
 }
