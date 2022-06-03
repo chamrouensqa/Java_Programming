@@ -316,5 +316,43 @@ public class test{
         for (String listCars:cars){
             System.out.println(listCars);
         }
+        System.out.println("-----------------Java Break and Continue---------------------");
+        //Break Operation
+        for (int iii=0; iii<10; iii++){
+            if (iii==5){
+                break;
+            }
+            else{
+                System.out.println("Break Operation "+iii);
+            }
+        }
+        //Continue Operation
+        for (int iiii=0; iiii<10; iiii++){
+            if (iiii==5){
+                continue;
+            }
+            else{
+                System.out.println("Continue Operation "+iiii);
+            }
+        }
+        //Using while loop with break
+        int J=0;
+        while (J<10){
+            System.out.println("While loop operation with break "+J);
+            J++;
+            if (J==5){
+                break;
+            }
+        }
+        //Using while loop with continues
+        int JJ=0;
+        while (JJ<10){
+            if (JJ==5){
+                JJ++;
+                continue;
+            }
+            System.out.println("While loop opearation with continues "+JJ);
+            JJ++;
+        }
     }
 }
